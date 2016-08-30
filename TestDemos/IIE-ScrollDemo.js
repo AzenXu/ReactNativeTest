@@ -1,6 +1,8 @@
 /**
  * Created by Azen on 16/8/30.
- * 
+ * 1. 熟练自定义函数 & for循环写法
+ * 2. ScrlooView属性
+ * 3. 注意array.length而非array.count
  */
 
 import React, { Component } from 'react';

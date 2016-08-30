@@ -21,6 +21,7 @@ var TextInputDemo = require('./IIB-TextInputDemo')
 var QQLoginBox = require('./IIC-QQLoginBox')
 var LifeCircle = require('./IID-LifeCircleDemo')
 var ScrollDemo = require('./IIE-ScrollDemo')
+var LoopPage = require('./IIF-LoopPageDemo')
 
 class TestDemos extends Component {
   render() {
@@ -33,7 +34,8 @@ class TestDemos extends Component {
         // <TextInputDemo />
         // <QQLoginBox />
         // <LifeCircle />
-        <ScrollDemo />
+        // <ScrollDemo />
+        <LoopPage />
     );
   }
 }
