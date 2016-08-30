@@ -29,16 +29,6 @@ class HelloWord extends  Component {
     }
 }
 
-var HellowWordES5 = createClass({
-    render() {
-        return (
-            <View>
-                
-            </View>
-        )
-    }
-})
-
 const styles = StyleSheet.create({
     container: {
         flex: 1,

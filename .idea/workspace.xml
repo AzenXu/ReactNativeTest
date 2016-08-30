@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aab1846e-ca40-4dcc-beaa-237fae41a83b" name="Default" comment="" />
+    <list default="true" id="aab1846e-ca40-4dcc-beaa-237fae41a83b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDemos/IIE-ScrollDemo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestDemos/IA-HelloWord.js" afterPath="$PROJECT_DIR$/TestDemos/IA-HelloWord.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestDemos/index.ios.js" afterPath="$PROJECT_DIR$/TestDemos/index.ios.js" />
+    </list>
     <ignored path="RNTestDemos.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/TestDemos/index.ios.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="525">
-              <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#89#130#0" expanded="true" />
@@ -34,7 +40,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IID-LifeCircleDemo.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IA-HelloWord.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestDemos/IA-HelloWord.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+              <folding>
+                <element signature="e#136#177#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IID-LifeCircleDemo.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestDemos/IID-LifeCircleDemo.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
@@ -42,6 +60,19 @@
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#270#311#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IIE-ScrollDemo.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestDemos/IIE-ScrollDemo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#44#85#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,6 +87,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -65,11 +99,13 @@
         <option value="$PROJECT_DIR$/TestDemos/ID-ImageDemo.js" />
         <option value="$PROJECT_DIR$/TestDemos/IIB-TextInputDemo.js" />
         <option value="$PROJECT_DIR$/TestDemos/IIIC-QQLoginBox.js" />
-        <option value="$PROJECT_DIR$/TestDemos/index.ios.js" />
-        <option value="$PROJECT_DIR$/TestDemos/IA-HelloWord.js" />
         <option value="$PROJECT_DIR$/TestDemos/IIA-ImageDemo.js" />
         <option value="$PROJECT_DIR$/TestDemos/IIC-QQLoginBox.js" />
         <option value="$PROJECT_DIR$/TestDemos/IID-LifeCircleDemo.js" />
+        <option value="$PROJECT_DIR$/TestDemos/IIIE-ScrollDemo.js" />
+        <option value="$PROJECT_DIR$/TestDemos/index.ios.js" />
+        <option value="$PROJECT_DIR$/TestDemos/IA-HelloWord.js" />
+        <option value="$PROJECT_DIR$/TestDemos/IIE-ScrollDemo.js" />
       </list>
     </option>
   </component>
@@ -79,9 +115,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1530" />
-    <option name="y" value="-162" />
-    <option name="width" value="1477" />
+    <option name="x" value="1447" />
+    <option name="y" value="-127" />
+    <option name="width" value="1737" />
     <option name="height" value="948" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -91,7 +127,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -109,21 +145,32 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="RNTestDemos" />
+              <option name="myItemId" value="ReactNativeTest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="RNTestDemos" />
+              <option name="myItemId" value="ReactNativeTest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="RNTestDemos" />
+              <option name="myItemId" value="ReactNativeTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReactNativeTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReactNativeTest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -133,7 +180,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -222,17 +268,18 @@
       <workItem from="1472436885789" duration="18048000" />
       <workItem from="1472471159518" duration="4985000" />
       <workItem from="1472524107604" duration="1450000" />
+      <workItem from="1472526275371" duration="1996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24483000" />
+    <option name="totallyTimeSpent" value="26479000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1530" y="-162" width="1477" height="948" extended-state="0" />
-    <editor active="false" />
+    <frame x="1447" y="-127" width="1737" height="948" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23561274" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20034543" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -277,13 +324,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TestDemos/IID-LifeCircleDemo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#270#311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestDemos/index.ios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#89#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TestDemos/IIC-QQLoginBox.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -293,6 +359,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#270#311#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -333,9 +400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-          <folding>
-            <element signature="e#194#235#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -343,10 +407,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#111#152#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -354,9 +414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1560">
           <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding>
-            <element signature="e#143#184#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -364,17 +421,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestDemos/IA-HelloWord.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          <folding>
-            <element signature="e#136#177#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -382,10 +428,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#70#111#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -393,21 +435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#94#135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestDemos/index.ios.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#89#130#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -418,6 +445,38 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#270#311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestDemos/index.ios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#89#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestDemos/IA-HelloWord.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="e#136#177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestDemos/IIE-ScrollDemo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#44#85#0" expanded="true" />
           </folding>
         </state>
       </provider>

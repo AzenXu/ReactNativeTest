@@ -20,6 +20,7 @@ var ImageDemoList = require('./IIA-ImageDemo')
 var TextInputDemo = require('./IIB-TextInputDemo')
 var QQLoginBox = require('./IIC-QQLoginBox')
 var LifeCircle = require('./IID-LifeCircleDemo')
+var ScrollDemo = require('./IIE-ScrollDemo')
 
 class TestDemos extends Component {
   render() {
@@ -31,7 +32,8 @@ class TestDemos extends Component {
         // <ImageDemoList />
         // <TextInputDemo />
         // <QQLoginBox />
-        <LifeCircle />
+        // <LifeCircle />
+        <ScrollDemo />
     );
   }
 }
