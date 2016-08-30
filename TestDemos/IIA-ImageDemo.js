@@ -20,7 +20,7 @@ import {
 //  九宫格布局
 
 var data = require('./LocalData/datas.json');
-var Dimensionss = require('Dimensions')
+var Dimensionss = require('Dimensions');
 var {width, height, scale} = Dimensionss.get('window');
 
 var cols = 3;
@@ -39,7 +39,7 @@ class ImageDemo extends Component {
 
     getItems() {
         var itemArr = [];
-        alert(data.length)
+        alert(data.length);
         for(var i = 0; i < data.length; i++) {
             var item = data[i];
             itemArr.push(
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
         width: itemWH - 20,
         height: itemWH - 20
     }
-}) 
+}); 
 
 //  这句的意思是把拿个类公开出去
-module.exports = ImageDemo
+module.exports = ImageDemo;
