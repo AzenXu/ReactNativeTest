@@ -21,7 +21,7 @@ import {
     Dimensions
 } from 'react-native'
 
-var imageData = require('./LocalData/ImageDataForScroll.json');
+var imageData = require('./../../LocalData/ImageDataForScroll.json');
 var TimerMixin = require('react-timer-mixin');
 
 let {width} = Dimensions.get('window');

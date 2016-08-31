@@ -19,7 +19,7 @@ import {
 
 //  九宫格布局
 
-var data = require('./LocalData/datas.json');
+var data = require('./../../LocalData/datas.json');
 var Dimensionss = require('Dimensions');
 var {width, height, scale} = Dimensionss.get('window');
 

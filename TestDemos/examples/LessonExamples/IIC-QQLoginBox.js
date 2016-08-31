@@ -22,7 +22,7 @@ class QQLoginBox extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Image source={require('./img/icon.png')} style={{width:80, height:80, borderRadius: 40, marginTop: 60, borderWidth: 3, borderColor: 'rgba(255,255,255,0.7)'}}/>
+                <Image source={require('./../../img/icon.png')} style={{width:80, height:80, borderRadius: 40, marginTop: 60, borderWidth: 3, borderColor: 'rgba(255,255,255,0.7)'}}/>
                 {/*用户名和密码*/}
                 <View style={{marginTop: 30}}>
                     <TextInput
@@ -52,10 +52,10 @@ class QQLoginBox extends Component {
                         activeOpacity={0.5}
                         onPress={()=>{alert('别点我!微信大爷你惹得起嘛!')}}
                     >
-                        <Image source={require('./img/icon7.png')} style={styles.bottomIconStyle}/>
+                        <Image source={require('./../../img/icon7.png')} style={styles.bottomIconStyle}/>
                     </TouchableOpacity>
-                    <Image source={require('./img/icon3.png')} style={styles.bottomIconStyle}/>
-                    <Image source={require('./img/icon8.png')} style={styles.bottomIconStyle}/>
+                    <Image source={require('./../../img/icon3.png')} style={styles.bottomIconStyle}/>
+                    <Image source={require('./../../img/icon8.png')} style={styles.bottomIconStyle}/>
                 </View>
             </View>
         )
