@@ -26,6 +26,7 @@ var ListDemo = require('./examples/LessonExamples/IIG-ListDemo');
 
 
 var Project19 = require('./examples/BookExamples/XA-2-1');
+var Book2_3 = require('./examples/BookExamples/XA-2-3');
 
 class TestDemos extends Component {
   render() {
@@ -40,8 +41,9 @@ class TestDemos extends Component {
         // <LifeCircle />
         // <ScrollDemo />
         // <LoopPage />
-        // <ListDemo />
-        <Project19 />
+        <ListDemo />
+        // <Project19 />
+        // <Book2_3 />
     );
   }
 }
