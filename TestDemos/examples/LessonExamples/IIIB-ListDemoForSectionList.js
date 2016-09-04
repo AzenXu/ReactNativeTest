@@ -82,7 +82,7 @@ var SectionList = React.createClass({
     _analysisDataFromJSON() {
         var jsonData = carData.data;
 
-        var dataBlob = {},  //  数据二维数组,dataBlod[i]表示第一纬数组, dataBlod[i:j]表示第二纬数组
+        var dataBlob = {},  //  数据二维数组,dataBlod[i]表示第一纬数组的值, dataBlod[i:j]表示第二纬数组的值
             sectionIDs = [],    //
             rowIDs = [],
             cars = [];
