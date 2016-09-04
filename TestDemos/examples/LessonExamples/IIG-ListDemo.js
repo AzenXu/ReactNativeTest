@@ -1,6 +1,7 @@
 /**
  * Created by Azen on 16/8/30.
- * 1. 设置数据源
+ * 1. 数据源
+ * 2. 渲染方式
  */
 
 'use strict';

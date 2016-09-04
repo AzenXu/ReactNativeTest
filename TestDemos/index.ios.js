@@ -23,7 +23,7 @@ var LifeCircle = require('./examples/LessonExamples/IID-LifeCircleDemo');
 var ScrollDemo = require('./examples/LessonExamples/IIE-ScrollDemo');
 var LoopPage = require('./examples/LessonExamples/IIF-LoopPageDemo');
 var ListDemo = require('./examples/LessonExamples/IIG-ListDemo');
-
+var CollectionDemo = require('./examples/LessonExamples/IIIA-ListDemoForCollection');
 
 var Project19 = require('./examples/BookExamples/XA-2-1');
 var Book2_3 = require('./examples/BookExamples/XA-2-3');
@@ -41,7 +41,8 @@ class TestDemos extends Component {
         // <LifeCircle />
         // <ScrollDemo />
         // <LoopPage />
-        <ListDemo />
+        // <ListDemo />
+        <CollectionDemo />
         // <Project19 />
         // <Book2_3 />
     );
