@@ -1,7 +1,7 @@
 /**
  * Created by Azen on 16/8/30.
- * 1. 数据源
- * 2. 渲染方式
+ * 1. 在getInitialState中初始化数据源
+ * 2. 在创建ListView的时候设定数据源及cell的渲染方法
  */
 
 'use strict';
