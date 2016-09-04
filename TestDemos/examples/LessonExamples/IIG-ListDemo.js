@@ -19,23 +19,22 @@ var WineData = require('./../../LocalData/WineData.json');
 var ListDemo = React.createClass({
 
     getInitialState() {
-
-        var ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
+        var ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});   //  固定写法,rowHasChange:表示,listView中,没有任意两行是相等的,为了性能优化考虑
         return {
-            dataSource: ds.cloneWithRows(WineData)
+            dataSource: ds.cloneWithRows(WineData)  //  也是固定写法. ListView.DataSource这个类,会到WineData做解析
         }
     },
 
     render() {
         return (
             <ListView
-                dataSource = {this.state.dataSource}
-                renderRow = {this._setupRenderRow}
+                dataSource = {this.state.dataSource}    //  设置数据源
+                renderRow = {this._setupRenderRow}      //  设置渲染方式 -> 默认传给自定义函数四个参数,rowData -> DataSource解析后的行数据, sectionID -> 组号, rowID -> 行号
             />
         )
     },
 
-    _setupRenderRow(rowData, sectionID, rowID) {
+    _setupRenderRow(rowData, sectionID, rowID) {        //  返回每一行的cell
         console.log(rowData.image + '----' + sectionID + '------' + rowID);
         return (
             <TouchableOpacity onPress={() => alert('第'+sectionID+'组,'+rowID+'行')}>
