@@ -26,6 +26,7 @@ var ListDemo = require('./examples/LessonExamples/IIG-ListDemo');
 var CollectionDemo = require('./examples/LessonExamples/IIIA-ListDemoForCollection');
 var SectionDemo = require('./examples/LessonExamples/IIIB-ListDemoForSectionList');
 var TabBarDemo = require('./examples/LessonExamples/IIIC-TabBarDemo');
+var NewsMain = require('./examples/LessonExamples/IIID-News/Main');
 
 var Project19 = require('./examples/BookExamples/XA-2-1');
 var Book2_3 = require('./examples/BookExamples/XA-2-3');
@@ -46,7 +47,8 @@ class TestDemos extends Component {
         // <ListDemo />
         // <CollectionDemo />
         // <SectionDemo />
-        <TabBarDemo />
+        // <TabBarDemo />
+        <NewsMain />
 
         // <Project19 />
         // <Book2_3 />
