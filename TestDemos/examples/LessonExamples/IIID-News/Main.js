@@ -10,6 +10,7 @@ import {
     Image,
     Text,
     TabBarIOS,
+    NavigatorIOS,
     StyleSheet
 } from 'react-native'
 
@@ -34,7 +35,13 @@ var Main = React.createClass({
                     onPress={()=>this.setState({selectedTabItem:'home'})}
                     selected={this.state.selectedTabItem == 'home'}
                 >
-                    <Home />
+                    <NavigatorIOS
+                        initialRoute={{
+                            component:Home,
+                            title:'首页',
+                        }}
+                        style={{flex:1}}
+                    />
                 </TabBarIOS.Item>
 
                 <TabBarIOS.Item
@@ -42,7 +49,13 @@ var Main = React.createClass({
                     onPress={()=>this.setState({selectedTabItem:'find'})}
                     selected={this.state.selectedTabItem == 'find'}
                 >
-                    <Finder />
+                    <NavigatorIOS
+                        initialRoute={{
+                            component:Finder,
+                            title:'发现'
+                        }}
+                        style={{flex:1}}
+                    />
                 </TabBarIOS.Item>
 
                 <TabBarIOS.Item
@@ -50,7 +63,13 @@ var Main = React.createClass({
                     onPress={()=>this.setState({selectedTabItem:'message'})}
                     selected={this.state.selectedTabItem == 'message'}
                 >
-                    <Message />
+                    <NavigatorIOS
+                        initialRoute={{
+                            component:Message,
+                            title:'消息'
+                        }}
+                        style={{flex:1}}
+                    />
                 </TabBarIOS.Item>
 
                 <TabBarIOS.Item
@@ -58,7 +77,13 @@ var Main = React.createClass({
                     onPress={()=>this.setState({selectedTabItem:'mine'})}
                     selected={this.state.selectedTabItem == 'mine'}
                 >
-                    <Mine />
+                    <NavigatorIOS
+                        initialRoute={{
+                            component:Mine,
+                            title:'我的'
+                        }}
+                        style={{flex:1}}
+                    />
                 </TabBarIOS.Item>
             </TabBarIOS>
         )
