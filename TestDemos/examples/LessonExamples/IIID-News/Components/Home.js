@@ -24,7 +24,9 @@ var Home = React.createClass({
 const styles = StyleSheet.create({
     container:{
         flex: 1,
-        backgroundColor: 'green'
+        backgroundColor: 'green',
+        justifyContent:'center',
+        alignItems:'center'
     }
 });
 

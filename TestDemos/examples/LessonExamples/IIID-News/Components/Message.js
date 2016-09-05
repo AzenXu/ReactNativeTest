@@ -25,7 +25,9 @@ var Message = React.createClass({
 const styles = StyleSheet.create({
     container:{
         flex: 1,
-        backgroundColor: 'pink'
+        backgroundColor: 'orange',
+        justifyContent:'center',
+        alignItems:'center'
     }
 });
 

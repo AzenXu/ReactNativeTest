@@ -24,7 +24,9 @@ var Mine = React.createClass({
 const styles = StyleSheet.create({
     container:{
         flex: 1,
-        backgroundColor: 'purple'
+        backgroundColor: 'yellow',
+        justifyContent:'center',
+        alignItems:'center'
     }
 });
 

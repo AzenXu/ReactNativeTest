@@ -24,7 +24,9 @@ var Finder = React.createClass({
 const styles = StyleSheet.create({
     container:{
         flex: 1,
-        backgroundColor: 'blue'
+        backgroundColor: 'pink',
+        justifyContent:'center',
+        alignItems:'center'
     }
 });
 
