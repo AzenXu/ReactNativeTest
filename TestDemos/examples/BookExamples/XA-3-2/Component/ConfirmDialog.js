@@ -21,7 +21,6 @@ let ConfirmDialog = React.createClass({
     propTypes: {
         userConfirmed: React.PropTypes.func.isRequired,
         userCanceled: React.PropTypes.func.isRequired,
-        amIStillAlive: React.PropTypes.func.isRequired,
         promptToUser: React.PropTypes.string.isRequired
     },
 

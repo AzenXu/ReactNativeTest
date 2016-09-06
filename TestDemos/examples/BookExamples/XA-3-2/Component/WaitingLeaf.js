@@ -11,6 +11,20 @@ import {
 
 let WaitingLeaf = React.createClass({
 
+    componentWillMount() {
+        //  导入原始代码事件接收器
+        var { NativeAppEventEmitter } = require('react-native');
+        //  向事件接收器注册接收名为NativeModuleMsg的事件（和原生约定好的另一个接头暗号）,并指定处理函数
+        this.NativeMsgSubscription = NativeAppEventEmitter.addListener(
+            'NativeModuleMsg', (reminder)=>{this.handlerNativeInterfaceMsg(reminder.message);}
+        )
+    },
+
+    handlerNativeInterfaceMsg(aMsg) {
+        console.log('received msg from OC modue:'+aMsg);
+        alert('收到了!' + aMsg);
+    },
+
     render() {
         return(
             <View style={{flex:1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#F5FCFF'}}>

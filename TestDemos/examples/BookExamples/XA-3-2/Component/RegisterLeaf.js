@@ -13,6 +13,8 @@ let leftMarin = width * 0.1;
 let componentWidth = width * 0.8;
 let ConfirmDialog = require('./ConfirmDialog');
 
+var ExampleInterface = require('react-native').NativeModules.ExampleInterface;  //  通过OC的桥接文件类名获取到这个类
+
 let RegistLeaf = React.createClass({
 
     getInitialState() {
@@ -128,6 +130,8 @@ let RegistLeaf = React.createClass({
                 needToConfirm: false
             }
         });
+        //  调用原生模块桥接文件定义的方法向原生模块发送消息
+        ExampleInterface.sendMessage('{\"msgType":\"pickContact\"}');
         this.props.navigator.replace({
             phoneNumber: this.state.inputedNum,
             userPW: this.state.inputedPW,
