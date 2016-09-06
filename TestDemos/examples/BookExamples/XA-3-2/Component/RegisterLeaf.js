@@ -1,8 +1,3 @@
-/**
- * Created by Azen on 16/8/31.
- * 注册页面
- */
-
 'use strict';
 import React, { Component } from 'react';
 import {
@@ -17,7 +12,7 @@ let {width, height, scale} = Dimensions.get('window');
 let leftMarin = width * 0.1;
 let componentWidth = width * 0.8;
 
-let Project19 = React.createClass({
+let RegistLeaf = React.createClass({
 
     getInitialState() {
         return {
@@ -43,7 +38,7 @@ let Project19 = React.createClass({
     _changeNumberDone() {
         console.log('修改inputedNumber完毕')
     },
-    
+
     _updatePW: function (newText) {
         this.setState((state) => {
             return {
@@ -78,9 +73,9 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: 'pink',
         justifyContent: 'center',
-        alignItems: 'center',
+        alignItems: 'center'
     }
 
 });
 
-module.exports = Project19
+module.exports = RegistLeaf;
