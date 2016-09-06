@@ -17,6 +17,15 @@ let totalWidth = Dimensions.get('window').width;
 let totalHeight = Dimensions.get('window').height;
 
 let ConfirmDialog = React.createClass({
+
+    //  提示传入参数类型的
+    propTypes: {
+        userConfirmed: React.PropTypes.func.isRequired,
+        userCanceled: React.PropTypes.func.isRequired,
+        amIStillAlive: React.PropTypes.func.isRequired,
+        promptToUser: React.PropTypes.string.isRequired
+    },
+
     render() {
         return(
             <View style={styles.confirmCont}>
