@@ -48,10 +48,10 @@ class TestDemos extends Component {
         // <CollectionDemo />
         // <SectionDemo />
         // <TabBarDemo />
-        <NewsMain />
+        // <NewsMain />
 
         // <Project19 />
-        // <Book2_3 />
+        <Book2_3 />
     );
   }
 }
