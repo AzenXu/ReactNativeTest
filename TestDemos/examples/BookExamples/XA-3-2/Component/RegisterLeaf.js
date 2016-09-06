@@ -62,9 +62,23 @@ let RegistLeaf = React.createClass({
                     style={{width: 300, height: 40, backgroundColor: 'gray', alignSelf: 'center', margin: 20}}
                     onChangeText={this._updatePW}
                 />
-                <Text style = {{width: 200, height: 30, borderRadius: 6, backgroundColor: 'black', color: 'white', fontSize: 28, textAlign: 'center'}}>确  定</Text>
+                <Text style = {{width: 200, height: 30, borderRadius: 6, backgroundColor: 'black', color: 'white', fontSize: 28, textAlign: 'center'}}
+                      onPress={this._userPressConfirm}>确  定</Text>
             </View>
         )
+    },
+
+    _userPressConfirm() {
+        // this.props.navigator.push({
+        //     phoneNumber: this.state.inputedNum,
+        //     userPW: this.state.inputedPW,
+        //     name:'waiting'
+        // });
+        this.props.navigator.replace({
+            phoneNumber: this.state.inputedNum,
+            userPW: this.state.inputedPW,
+            name:'waiting'
+        });
     }
 });
 

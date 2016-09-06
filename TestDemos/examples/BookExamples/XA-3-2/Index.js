@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 
 var RegisterLeaf = require('./Component/RegisterLeaf');
-// var WaitingLeaf = require('./Component/WaitingLeaf');
+var WaitingLeaf = require('./Component/WaitingLeaf');
 
 var NaviModule = React.createClass({
     //  自定义函数,告诉Navigator跳转方式
