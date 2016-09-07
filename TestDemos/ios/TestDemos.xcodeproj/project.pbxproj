@@ -23,6 +23,9 @@
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		B529BDDD1D7FA5E50023F077 /* FLAnimatedImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B529BDD21D7FA5C20023F077 /* FLAnimatedImage.framework */; };
+		B529BDE01D7FA6A80023F077 /* RNFLAnimatedImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B529BDDF1D7FA6A80023F077 /* RNFLAnimatedImageManager.m */; };
+		B529BDE31D7FA7210023F077 /* RNFLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B529BDE21D7FA7210023F077 /* RNFLAnimatedImage.m */; };
 		B5FE1C611D7EEB2C007B7756 /* ExampleInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FE1C601D7EEB2C007B7756 /* ExampleInterface.m */; };
 		B5FE1C6E1D7EEB6F007B7756 /* CallAdressbookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FE1C6D1D7EEB6F007B7756 /* CallAdressbookViewController.m */; };
 /* End PBXBuildFile section */
@@ -105,6 +108,13 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
+		B529BDD11D7FA5C20023F077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B529BDCD1D7FA5C20023F077 /* FLAnimatedImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 92C9BC0C1B199DC500D79B06;
+			remoteInfo = FLAnimatedImage;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -129,6 +139,11 @@
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		B529BDCD1D7FA5C20023F077 /* FLAnimatedImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FLAnimatedImage.xcodeproj; path = "FLAnimatedImage-master/FLAnimatedImage.xcodeproj"; sourceTree = "<group>"; };
+		B529BDDE1D7FA6A80023F077 /* RNFLAnimatedImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNFLAnimatedImageManager.h; sourceTree = "<group>"; };
+		B529BDDF1D7FA6A80023F077 /* RNFLAnimatedImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNFLAnimatedImageManager.m; sourceTree = "<group>"; };
+		B529BDE11D7FA7210023F077 /* RNFLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNFLAnimatedImage.h; sourceTree = "<group>"; };
+		B529BDE21D7FA7210023F077 /* RNFLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNFLAnimatedImage.m; sourceTree = "<group>"; };
 		B5FE1C5F1D7EEB2C007B7756 /* ExampleInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleInterface.h; path = TestDemos/ExampleInterface.h; sourceTree = "<group>"; };
 		B5FE1C601D7EEB2C007B7756 /* ExampleInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleInterface.m; path = TestDemos/ExampleInterface.m; sourceTree = "<group>"; };
 		B5FE1C6C1D7EEB6F007B7756 /* CallAdressbookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CallAdressbookViewController.h; path = TestDemos/CallAdressbookViewController.h; sourceTree = "<group>"; };
@@ -148,6 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B529BDDD1D7FA5E50023F077 /* FLAnimatedImage.framework in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
@@ -247,6 +263,10 @@
 				B5FE1C601D7EEB2C007B7756 /* ExampleInterface.m */,
 				B5FE1C6C1D7EEB6F007B7756 /* CallAdressbookViewController.h */,
 				B5FE1C6D1D7EEB6F007B7756 /* CallAdressbookViewController.m */,
+				B529BDDE1D7FA6A80023F077 /* RNFLAnimatedImageManager.h */,
+				B529BDDF1D7FA6A80023F077 /* RNFLAnimatedImageManager.m */,
+				B529BDE11D7FA7210023F077 /* RNFLAnimatedImage.h */,
+				B529BDE21D7FA7210023F077 /* RNFLAnimatedImage.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
@@ -274,6 +294,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				B529BDCD1D7FA5C20023F077 /* FLAnimatedImage.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
 				00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */,
@@ -313,6 +334,14 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* TestDemos.app */,
 				00E356EE1AD99517003FC87E /* TestDemosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B529BDCE1D7FA5C20023F077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B529BDD21D7FA5C20023F077 /* FLAnimatedImage.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -383,6 +412,10 @@
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = B529BDCE1D7FA5C20023F077 /* Products */;
+					ProjectRef = B529BDCD1D7FA5C20023F077 /* FLAnimatedImage.xcodeproj */;
+				},
 				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
 					ProjectRef = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
@@ -503,6 +536,13 @@
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		B529BDD21D7FA5C20023F077 /* FLAnimatedImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FLAnimatedImage.framework;
+			remoteRef = B529BDD11D7FA5C20023F077 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -556,6 +596,8 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				B5FE1C6E1D7EEB6F007B7756 /* CallAdressbookViewController.m in Sources */,
+				B529BDE31D7FA7210023F077 /* RNFLAnimatedImage.m in Sources */,
+				B529BDE01D7FA6A80023F077 /* RNFLAnimatedImageManager.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				B5FE1C611D7EEB2C007B7756 /* ExampleInterface.m in Sources */,
 			);
@@ -622,8 +664,10 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/FLAnimatedImage-master/FLAnimatedImage",
 				);
 				INFOPLIST_FILE = TestDemos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -642,8 +686,10 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/FLAnimatedImage-master/FLAnimatedImage",
 				);
 				INFOPLIST_FILE = TestDemos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",

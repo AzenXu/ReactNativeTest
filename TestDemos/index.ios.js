@@ -31,6 +31,7 @@ var NewsMain = require('./examples/LessonExamples/IIID-News/Main');
 var Project19 = require('./examples/BookExamples/XA-2-1');
 var Book2_3 = require('./examples/BookExamples/XA-2-3');
 var Book3_2 = require('./examples/BookExamples/XA-3-2/Index');
+var CrossDemo = require('./examples/BookExamples/XA-17-5/Index');
 
 class TestDemos extends Component {
   render() {
@@ -53,7 +54,8 @@ class TestDemos extends Component {
 
         // <Project19 />
         // <Book2_3 />
-        <Book3_2 />
+        // <Book3_2 />
+        < CrossDemo/>
     );
   }
 }
