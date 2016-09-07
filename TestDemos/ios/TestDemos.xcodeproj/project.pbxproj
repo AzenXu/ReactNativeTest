@@ -26,6 +26,10 @@
 		B529BDDD1D7FA5E50023F077 /* FLAnimatedImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B529BDD21D7FA5C20023F077 /* FLAnimatedImage.framework */; };
 		B529BDE01D7FA6A80023F077 /* RNFLAnimatedImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B529BDDF1D7FA6A80023F077 /* RNFLAnimatedImageManager.m */; };
 		B529BDE31D7FA7210023F077 /* RNFLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B529BDE21D7FA7210023F077 /* RNFLAnimatedImage.m */; };
+		B529BE0C1D8004010023F077 /* GradientView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B529BE0B1D8003D80023F077 /* GradientView.framework */; };
+		B529BE0F1D8004710023F077 /* RNGradientViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B529BE0E1D8004710023F077 /* RNGradientViewManager.swift */; };
+		B529BE121D8005540023F077 /* RNOCGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = B529BE111D8005540023F077 /* RNOCGradientView.m */; };
+		B529BE141D8007D80023F077 /* RNGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B529BE131D8007D80023F077 /* RNGradientView.swift */; };
 		B5FE1C611D7EEB2C007B7756 /* ExampleInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FE1C601D7EEB2C007B7756 /* ExampleInterface.m */; };
 		B5FE1C6E1D7EEB6F007B7756 /* CallAdressbookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FE1C6D1D7EEB6F007B7756 /* CallAdressbookViewController.m */; };
 /* End PBXBuildFile section */
@@ -115,6 +119,27 @@
 			remoteGlobalIDString = 92C9BC0C1B199DC500D79B06;
 			remoteInfo = FLAnimatedImage;
 		};
+		B529BE081D8003D80023F077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B529BE031D8003D80023F077 /* Gradient View.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2163B9F61A25FBF000610B0C;
+			remoteInfo = Example;
+		};
+		B529BE0A1D8003D80023F077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B529BE031D8003D80023F077 /* Gradient View.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2163BA201A25FBFD00610B0C;
+			remoteInfo = GradientView;
+		};
+		B529BE151D800ADE0023F077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B529BE031D8003D80023F077 /* Gradient View.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2163BA1F1A25FBFD00610B0C;
+			remoteInfo = GradientView;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -144,6 +169,12 @@
 		B529BDDF1D7FA6A80023F077 /* RNFLAnimatedImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNFLAnimatedImageManager.m; sourceTree = "<group>"; };
 		B529BDE11D7FA7210023F077 /* RNFLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNFLAnimatedImage.h; sourceTree = "<group>"; };
 		B529BDE21D7FA7210023F077 /* RNFLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNFLAnimatedImage.m; sourceTree = "<group>"; };
+		B529BE031D8003D80023F077 /* Gradient View.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Gradient View.xcodeproj"; path = "GradientView-master/Gradient View.xcodeproj"; sourceTree = "<group>"; };
+		B529BE0D1D8004700023F077 /* TestDemos-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestDemos-Bridging-Header.h"; sourceTree = "<group>"; };
+		B529BE0E1D8004710023F077 /* RNGradientViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNGradientViewManager.swift; sourceTree = "<group>"; };
+		B529BE101D8005540023F077 /* RNOCGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNOCGradientView.h; sourceTree = "<group>"; };
+		B529BE111D8005540023F077 /* RNOCGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNOCGradientView.m; sourceTree = "<group>"; };
+		B529BE131D8007D80023F077 /* RNGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNGradientView.swift; sourceTree = "<group>"; };
 		B5FE1C5F1D7EEB2C007B7756 /* ExampleInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleInterface.h; path = TestDemos/ExampleInterface.h; sourceTree = "<group>"; };
 		B5FE1C601D7EEB2C007B7756 /* ExampleInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleInterface.m; path = TestDemos/ExampleInterface.m; sourceTree = "<group>"; };
 		B5FE1C6C1D7EEB6F007B7756 /* CallAdressbookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CallAdressbookViewController.h; path = TestDemos/CallAdressbookViewController.h; sourceTree = "<group>"; };
@@ -163,6 +194,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B529BE0C1D8004010023F077 /* GradientView.framework in Frameworks */,
 				B529BDDD1D7FA5E50023F077 /* FLAnimatedImage.framework in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
@@ -256,21 +288,17 @@
 		13B07FAE1A68108700A75B9A /* TestDemos */ = {
 			isa = PBXGroup;
 			children = (
+				B529BE031D8003D80023F077 /* Gradient View.xcodeproj */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
-				B5FE1C5F1D7EEB2C007B7756 /* ExampleInterface.h */,
-				B5FE1C601D7EEB2C007B7756 /* ExampleInterface.m */,
-				B5FE1C6C1D7EEB6F007B7756 /* CallAdressbookViewController.h */,
-				B5FE1C6D1D7EEB6F007B7756 /* CallAdressbookViewController.m */,
-				B529BDDE1D7FA6A80023F077 /* RNFLAnimatedImageManager.h */,
-				B529BDDF1D7FA6A80023F077 /* RNFLAnimatedImageManager.m */,
-				B529BDE11D7FA7210023F077 /* RNFLAnimatedImage.h */,
-				B529BDE21D7FA7210023F077 /* RNFLAnimatedImage.m */,
+				B529BDEF1D7FF1080023F077 /* TestForNativeCallUp */,
+				B529BDFB1D7FF11C0023F077 /* TestForNativeComponent */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				B529BE0D1D8004700023F077 /* TestDemos-Bridging-Header.h */,
 			);
 			name = TestDemos;
 			sourceTree = "<group>";
@@ -346,6 +374,49 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B529BDEF1D7FF1080023F077 /* TestForNativeCallUp */ = {
+			isa = PBXGroup;
+			children = (
+				B5FE1C5F1D7EEB2C007B7756 /* ExampleInterface.h */,
+				B5FE1C601D7EEB2C007B7756 /* ExampleInterface.m */,
+				B5FE1C6C1D7EEB6F007B7756 /* CallAdressbookViewController.h */,
+				B5FE1C6D1D7EEB6F007B7756 /* CallAdressbookViewController.m */,
+			);
+			name = TestForNativeCallUp;
+			sourceTree = "<group>";
+		};
+		B529BDFB1D7FF11C0023F077 /* TestForNativeComponent */ = {
+			isa = PBXGroup;
+			children = (
+				B529BDFC1D7FF1360023F077 /* FromBook */,
+				B529BE101D8005540023F077 /* RNOCGradientView.h */,
+				B529BE111D8005540023F077 /* RNOCGradientView.m */,
+				B529BE0E1D8004710023F077 /* RNGradientViewManager.swift */,
+				B529BE131D8007D80023F077 /* RNGradientView.swift */,
+			);
+			name = TestForNativeComponent;
+			sourceTree = "<group>";
+		};
+		B529BDFC1D7FF1360023F077 /* FromBook */ = {
+			isa = PBXGroup;
+			children = (
+				B529BDDE1D7FA6A80023F077 /* RNFLAnimatedImageManager.h */,
+				B529BDDF1D7FA6A80023F077 /* RNFLAnimatedImageManager.m */,
+				B529BDE11D7FA7210023F077 /* RNFLAnimatedImage.h */,
+				B529BDE21D7FA7210023F077 /* RNFLAnimatedImage.m */,
+			);
+			name = FromBook;
+			sourceTree = "<group>";
+		};
+		B529BE041D8003D80023F077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B529BE091D8003D80023F077 /* Example.app */,
+				B529BE0B1D8003D80023F077 /* GradientView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -379,6 +450,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				B529BE161D800ADE0023F077 /* PBXTargetDependency */,
 			);
 			name = TestDemos;
 			productName = "Hello World";
@@ -391,6 +463,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
@@ -415,6 +488,10 @@
 				{
 					ProductGroup = B529BDCE1D7FA5C20023F077 /* Products */;
 					ProjectRef = B529BDCD1D7FA5C20023F077 /* FLAnimatedImage.xcodeproj */;
+				},
+				{
+					ProductGroup = B529BE041D8003D80023F077 /* Products */;
+					ProjectRef = B529BE031D8003D80023F077 /* Gradient View.xcodeproj */;
 				},
 				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
@@ -543,6 +620,20 @@
 			remoteRef = B529BDD11D7FA5C20023F077 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		B529BE091D8003D80023F077 /* Example.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Example.app;
+			remoteRef = B529BE081D8003D80023F077 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B529BE0B1D8003D80023F077 /* GradientView.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GradientView.framework;
+			remoteRef = B529BE0A1D8003D80023F077 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -596,10 +687,13 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				B5FE1C6E1D7EEB6F007B7756 /* CallAdressbookViewController.m in Sources */,
+				B529BE141D8007D80023F077 /* RNGradientView.swift in Sources */,
 				B529BDE31D7FA7210023F077 /* RNFLAnimatedImage.m in Sources */,
 				B529BDE01D7FA6A80023F077 /* RNFLAnimatedImageManager.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				B5FE1C611D7EEB2C007B7756 /* ExampleInterface.m in Sources */,
+				B529BE121D8005540023F077 /* RNOCGradientView.m in Sources */,
+				B529BE0F1D8004710023F077 /* RNGradientViewManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,6 +704,11 @@
 			isa = PBXTargetDependency;
 			target = 13B07F861A680F5B00A75B9A /* TestDemos */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		B529BE161D800ADE0023F077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GradientView;
+			targetProxy = B529BE151D800ADE0023F077 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -659,7 +758,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = "${SRCROOT}/GradientView-master";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -675,6 +776,8 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = TestDemos;
+				SWIFT_OBJC_BRIDGING_HEADER = "TestDemos-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -682,6 +785,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = "${SRCROOT}/GradientView-master";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -697,6 +802,7 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = TestDemos;
+				SWIFT_OBJC_BRIDGING_HEADER = "TestDemos-Bridging-Header.h";
 			};
 			name = Release;
 		};

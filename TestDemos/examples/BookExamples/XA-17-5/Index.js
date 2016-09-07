@@ -5,6 +5,7 @@
 'use strict';
 import React, { Component } from 'react';
 var FLAnimatedImage = require('./FLAnimatedImage');
+var GradientView = require('./GradientView');
 import {
     StyleSheet,
     Text,
@@ -14,12 +15,11 @@ import {
 var Demo = React.createClass({
     render() {
         return (
-            <View style={{flex:1}}>
-                <FLAnimatedImage style={{flex:1}} src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif" resizeMode="contain" />
-                <Text style={{position:'absolute', top:320, left:50, height: 40, fontSize: 30, backgroundColor: 'transparent'}}>
+            <GradientView style={{flex:1, justifyContent: 'center', alignItems: 'center'}} locations={[0, .5, 1.0]} colors={['white', 'gray', 'black']}>
+                <Text style={{fontSize: 30, backgroundColor: 'transparent', color: 'orange'}}>
                     Hello, world
                 </Text>
-            </View>
+            </GradientView>
         )
     }
 });
