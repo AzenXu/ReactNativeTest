@@ -1,7 +1,7 @@
 /**
  * Created by Azen on 16/9/7.
  */
-
+/*
 import React from 'react';   //  processColor?
 import {
     requireNativeComponent,     //  这个东东是用来引本地模块的
@@ -27,3 +27,4 @@ GradientView.propTypes = {
 };
 
 module.exports = GradientView;
+ */

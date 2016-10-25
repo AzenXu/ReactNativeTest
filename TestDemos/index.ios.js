@@ -54,8 +54,8 @@ class TestDemos extends Component {
 
         // <Project19 />
         // <Book2_3 />
-        // <Book3_2 />
-        < CrossDemo/>
+        <Book3_2 />
+        // < CrossDemo/>
     );
   }
 }

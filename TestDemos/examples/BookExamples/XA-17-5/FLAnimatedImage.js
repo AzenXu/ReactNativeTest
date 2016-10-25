@@ -1,7 +1,7 @@
 /**
  * Created by Azen on 16/9/7
  */
-
+/*
 import React, { Component } from 'react';
 import {
     requireNativeComponent,
@@ -39,3 +39,4 @@ var FLAnimatedImage = React.createClass({
 
 var RNFLAnimatedImage = requireNativeComponent('RNFLAnimatedImage', FLAnimatedImage);
 module.exports = FLAnimatedImage;
+*/
