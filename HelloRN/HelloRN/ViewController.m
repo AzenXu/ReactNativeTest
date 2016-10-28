@@ -26,7 +26,7 @@
                                                          moduleName:@"HelloRN"
                                                   initialProperties:nil
                                                       launchOptions:nil];
-    rootView.frame = CGRectMake(0, 0, 250, 250);
+    rootView.frame = self.view.bounds;
     [self.view addSubview:rootView];
 }
 

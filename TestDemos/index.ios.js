@@ -52,9 +52,9 @@ class TestDemos extends Component {
         // <TabBarDemo />
         // <NewsMain />
 
-        // <Project19 />
+        <Project19 />
         // <Book2_3 />
-        <Book3_2 />
+        // <Book3_2 />
         // < CrossDemo/>
     );
   }

@@ -1,54 +1,41 @@
 /**
- * Sample React Native App
- * https://github.com/facebook/react-native
+ * 日记Demo
  * @flow
  */
 
-import React, { Component } from 'react';
-import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
+'use strict';
 
-class HelloRN extends Component {
-  render() {
+import React, { Component } from 'react'; import { AppRegistry, StatusBarIOS,
+AsyncStorage, View } from 'react-native';
+
+let DiaryList = require('./Components/DiaryList');
+// let DiaryWriter = require('./DiaryWriter');
+// let DiaryReader = require('./DiaryReader');
+
+let DiaryDemo = React.createClass({
+  _showDiaryList: function() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
-      </View>
+      <DiaryList />
     );
-  }
-}
+  },
+  // _showDiaryReader: function() {
+  //   return (
+  //     <DiaryReader />
+  //   );
+  // },
+  // _showDiaryWriter: function() {
+  //   return (
+  //     <DiaryWriter />
+  //   );
+  // },
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+  componentWillMount: function() {
+
   },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
+
+  render: function() {
+    return this._showDiaryList();
+  }
 });
 
-//  项目名要有所对应
-AppRegistry.registerComponent('HelloRN', () => HelloRN);
+AppRegistry.registerComponent('HelloRN', () => DiaryDemo);
